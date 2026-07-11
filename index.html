@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body
+    class="mx-2 min-h-screen bg-cover bg-center bg-[url('images/background.jpg')] flex justify-center items-center">
+    <div class="flex flex-col text-center border border-white/20 p-10 rounded-lg bg-[rgba(255,255,255,0.1)] backdrop-blur-md shadow-2xl">
+        <form action="#">
+            <input type="text" class="text-2xl px-5 py-3 border border-black rounded-tr-3xl rounded-bl-3xl outline-0"
+                id="weatherInput" autocomplete="off" placeholder="e.g, Manila">
+        </form>
+
+        <img src="" alt="">
+        <h2 class="text-3xl font-semibold text-white"><span id="country"></span> <span id="city"></span></h2>
+
+        <h2 class="text-xl font-semibold text-white" id="weather"></h2>
+        <p class="text-xl font-semibold text-white" id="weatherDescription"></p>
+        <h2 class="text-xl font-semibold text-white" id="temperature"></h2>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
