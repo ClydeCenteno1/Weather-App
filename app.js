@@ -6,6 +6,7 @@ const temperaturePlaceholder = document.querySelector("#temperature")
 const weatherPlaceholder = document.querySelector("#weather")
 const weatherDescription = document.querySelector("#weatherDescription")
 const img = document.querySelector("img")
+const info = document.querySelector("#info")
 
 const weatherApi = async (city) => {
     try {
@@ -74,7 +75,7 @@ form.addEventListener("submit", async (e) => {
         const data = await weatherApi(grabWeatherInp())
         renderInfo(data)
     }
+
+    info.classList.add("max-h-[500px]")
     weatherInput.value = ''
-
 })
-
