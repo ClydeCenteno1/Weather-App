@@ -12,7 +12,7 @@ const weatherApi = async (city) => {
         const config = {
             params: {
                 q: city,
-                appId: "ac2b85cb8d99b66d9be80cf7a6523696",
+                appId: WEATHER_API_KEY,
                 units: "metric"
             }
         }

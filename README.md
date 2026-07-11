@@ -25,8 +25,9 @@ A responsive weather dashboard built with HTML, Tailwind CSS, and Axios. Users c
    ```bash
    git clone https://github.com/ClydeCenteno1/Weather-App.git
    ```
-2. Open the project folder in your code editor.
-3. Open `index.html` in a browser or use a local development server.
+2. Copy `config.example.js` to `config.js` and replace the placeholder API key with your OpenWeather API key.
+3. Open the project folder in your code editor.
+4. Open `index.html` in a browser or use a local development server.
 
 ## Usage
 
